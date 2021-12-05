@@ -11,7 +11,7 @@ const Intro = () => {
                     Justin Wong.
                 </div>
                 <div id="intro-description">
-                    I'm a computer engineering student in NUS.
+                    I'm currently studying computer engineering in NUS.
                 </div>
             </div>
 
