@@ -2,34 +2,34 @@ import React from 'react';
 
 const Header = () => {
     return (
-    <div className="app-header">
-        <div class="app-header-content">
-            <a class="header-logo" href=".">
-                <img class="header-logo" src="logobw50.png" alt=""></img>
+    <div id="header">
+        <div id="header-content">
+            <a id="header-logo" href=".">
+                <img id="header-logo" src="logobw50.png" alt=""></img>
             </a>
-            <ul class="header-list">
-                <li class="header-list-item">
-                    <a class="header-list-item" href="#about">
+            <ul id="header-list">
+                <li className="header-list-item">
+                    <a className="header-list-item" href="#about">
                         About
                     </a>
                 </li>
-                <li class="header-list-item">
-                    <a class="header-list-item" href="#about">
+                <li className="header-list-item">
+                    <a className="header-list-item" href="#skills">
                         Skills
                     </a>
                 </li>
-                <li class="header-list-item">
-                    <a class="header-list-item" href="#about">
+                <li className="header-list-item">
+                    <a className="header-list-item" href="#education">
                         Education
                     </a>
                 </li>
-                <li class="header-list-item">
-                    <a class="header-list-item" href="#about">
+                <li className="header-list-item">
+                    <a className="header-list-item" href="#experience">
                         Experience
                     </a>
                 </li>
-                <li class="header-list-item">
-                    <a class="header-list-item" href="#about">
+                <li className="header-list-item">
+                    <a className="header-list-item" href="#contact">
                         Contact
                     </a>
                 </li>

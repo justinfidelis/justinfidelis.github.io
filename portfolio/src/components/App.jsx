@@ -1,11 +1,13 @@
 import '../app.css';
 
 import Header from './Header';
+import Content from './Content';
 
 const App = () => {
     return (
-        <div className = "app">
+        <div id = "app">
             <Header />
+            <Content />
         </div>
     );
 }
