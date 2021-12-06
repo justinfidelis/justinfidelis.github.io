@@ -8,7 +8,7 @@ const Intro = () => {
                     Hi, my name is
                 </div>
                 <div id="intro-name">
-                    Justin Wong.
+                    Justin Wong
                 </div>
                 <div id="intro-description">
                     I'm currently studying computer engineering in NUS.

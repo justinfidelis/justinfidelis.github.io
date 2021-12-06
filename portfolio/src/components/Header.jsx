@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from './Logo';
 
 const Header = () => {
     return (
     <div id="header">
         <div id="header-content">
             <a id="header-logo" href=".">
-                <img id="header-logo" src="logobw50.png" alt=""></img>
+                <Logo />
             </a>
             <ul id="header-list">
                 <li className="header-list-item">
