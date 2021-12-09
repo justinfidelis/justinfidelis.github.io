@@ -51,18 +51,14 @@ small {
 hr {
     height: 2px;
     width: 60px;
-    background-color: #1EB0FF;
+    background-color: #39E5D1;
     border-width: 0px;
     margin-top: 8px;
     margin-bottom: 30px;
 }
 
-hr.card-break {
-    height: 2px;
-    width: 100px;
-    background-color: cornsilk;
-    border-width: 0px;
-    margin-bottom: 10px;
+p {
+    margin: 0em 0em 1em 0em;
 }
 
 #root {
@@ -80,8 +76,10 @@ hr.card-break {
 
 #header {
     height: 70px;
+    /*position: fixed;
+    top: 0;*/
     width: 100%;
-    background-color: #0066A5;
+    background-color: #078C71;
     display: flex;
     justify-content: center;
     border-bottom: #CCECFF;
@@ -141,7 +139,7 @@ a.header-list-item:hover {
 }
 
 #content-intro {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -165,7 +163,7 @@ a.header-list-item:hover {
 
 #intro-name {
     font-family: Montserrat, "Open sans", sans-serif;
-    color:#1EB0FF;
+    color:#39E5D1;
     font-size: 60px;
     text-align: left;
 }
@@ -204,10 +202,10 @@ a.header-list-item:hover {
 }
 
 .skills-card {
-    background-color: #0066A5;
+    background-color: #078C71;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #004770;
+    border-color: #0B4C3E;
     border-style: solid;
     margin: 15px;
     padding: 15px 25px;
@@ -236,6 +234,23 @@ li.skills-list-item {
     margin: 2px 0px;
 }
 
+hr.card-break {
+    height: 2px;
+    width: 100px;
+    background-color: cornsilk;
+    border-width: 0px;
+    margin-bottom: 10px;
+}
+
+h3.education-header {
+    padding-bottom: 8px;
+    color: #39E5D1
+}
+
+small.education-date {
+    padding-bottom: 6px;
+}
+
 .education-container {
     width: 100%;
     display: flex;
@@ -247,4 +262,95 @@ li.skills-list-item {
 .education-text {
     font-size: 20px;
     line-height: 1.4;
+}
+
+#experience-container {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+#experience-list {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+button.experience-list-item {
+    width: 100%;
+    border-color: #7A7A7A;
+    border-width: 0px 0px 0px 3px;
+    padding: 10px 10px;
+    border-style: none none none solid;
+    background-color: #262626;
+    text-align: left;
+    color: cornsilk;
+    font-size: 18px;
+}
+
+button.experience-list-item:hover {
+    background-color: #353535;
+}
+
+button.experience-list-item-selected {
+    width: 100%;
+    border-color: #39E5D1;
+    border-width: 0px 0px 0px 3px;
+    padding: 10px 10px;
+    border-style: none none none solid;
+    background-color: #262626;
+    text-align: left;
+    color: #39E5D1;
+    font-size: 18px;
+}
+
+button.experience-list-item-selected:hover {
+    background-color: #353535;
+}
+
+#experience-content-container {
+    padding-left: 40px;
+    flex-basis: 0;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.experience-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.experience-text {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+    color: cornsilk;
+
+}
+
+h3.experience-header {
+    padding-bottom: 8px;
+    color: #39E5D1
+}
+
+small.experience-date {
+    padding-bottom: 6px;
+}
+
+small.experience-role {
+    color: #BFBAAE;
+    padding-bottom: 6px;
 }

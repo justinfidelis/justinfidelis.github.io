@@ -5,9 +5,7 @@ const Header = () => {
     return (
     <div id="header">
         <div id="header-content">
-            <a id="header-logo" href=".">
-                <Logo />
-            </a>
+            <Logo />
             <ul id="header-list">
                 <li className="header-list-item">
                     <a className="header-list-item" href="#about">
@@ -36,8 +34,6 @@ const Header = () => {
                 </li>
             </ul>
         </div>
-        
-        
     </div>
     );
 }

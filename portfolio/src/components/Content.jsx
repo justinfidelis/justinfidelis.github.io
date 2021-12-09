@@ -3,6 +3,7 @@ import Intro from './Intro';
 import About from './About';
 import Skills from './Skills';
 import Education from './Education';
+import Experience from './Experience';
 
 const Content = () => {
     return (
@@ -12,6 +13,7 @@ const Content = () => {
                 <About />
                 <Skills />
                 <Education />
+                <Experience />
             </div>
         </div>
     );
