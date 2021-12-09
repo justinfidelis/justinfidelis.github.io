@@ -12,7 +12,7 @@ const Logo = () => {
             <path
                 id="path928"
                 fill={isHover ? "#ffffff" : "none"}
-                fillOpacity="0.1"
+                fillOpacity="0.15"
                 stroke="#ffffff"
                 strokeWidth="1.25"
                 strokeLinecap="round"
