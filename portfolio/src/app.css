@@ -79,9 +79,10 @@ p {
 }
 
 #header {
-    height: 70px;
-    /*position: fixed;
-    top: 0;*/
+    height: 65px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s;
     width: 100%;
     background-color: #067F63;
     display: flex;
