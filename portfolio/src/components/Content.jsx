@@ -9,7 +9,7 @@ import Contact from './Contact';
 const Content = () => {
     return (
         <div id="content">
-            <div id ="content-body">
+            <div id="content-body">
                 <Intro />
                 <About />
                 <Skills />

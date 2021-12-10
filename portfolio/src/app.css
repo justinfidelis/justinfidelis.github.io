@@ -139,7 +139,8 @@ a.header-list-item:hover {
 }
 
 #content-intro {
-    height: 110vh;
+    height: 100vh;
+    max-height: 800px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -349,7 +350,7 @@ button.experience-list-item-selected:hover {
 }
 
 #experience-content-container {
-    padding-left: 40px;
+    padding-left: 5%;
     flex-basis: 0;
     flex-grow: 2;
     flex-shrink: 2;

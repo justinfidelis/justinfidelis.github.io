@@ -15,7 +15,6 @@ const Header = () => {
         };
 
         window.addEventListener('scroll', handleScroll);
-        console.log("useeffect triggered");
 
         return () => window.removeEventListener('scroll', handleScroll);
     }, [prevScrollPos]);
