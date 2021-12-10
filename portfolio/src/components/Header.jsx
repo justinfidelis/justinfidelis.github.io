@@ -1,11 +1,11 @@
 import React from 'react';
-import Logo from './Logo';
+import MainLogo from './MainLogo';
 
 const Header = () => {
     return (
     <div id="header">
         <div id="header-content">
-            <Logo />
+            <MainLogo />
             <ul id="header-list">
                 <li className="header-list-item">
                     <a className="header-list-item" href="#about">

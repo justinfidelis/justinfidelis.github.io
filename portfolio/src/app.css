@@ -12,7 +12,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #3A3A3A; 
+    background-color: #464646; 
 }
 
 ::selection {
@@ -83,7 +83,7 @@ p {
     /*position: fixed;
     top: 0;*/
     width: 100%;
-    background-color: #078C71;
+    background-color: #067F63;
     display: flex;
     justify-content: center;
     border-bottom: #CCECFF;
@@ -199,6 +199,37 @@ a.header-list-item:hover {
     text-align: left;
 }
 
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#about-image-container {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 250px;
+}
+
+img.about-image {
+    margin: 5%;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+}
+
+#about-text-container {
+
+    flex-basis: 0;
+    flex-grow: 1.5;
+    flex-shrink: 1;
+    min-width: 300px;
+}
+
 .skills-container {
     width: 100%;
     display: grid;
@@ -206,7 +237,7 @@ a.header-list-item:hover {
 }
 
 .skills-card {
-    background-color: #078C71;
+    background-color: #067F63;
     border-radius: 10px;
     border-width: 2px;
     border-color: #0B4C3E;
