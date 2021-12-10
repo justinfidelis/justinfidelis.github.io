@@ -7,36 +7,36 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="linkedin.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg2633"
-   version="1.1"
-   viewBox="0 0 210 297"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2633"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="linkedin.svg">
   <defs
      id="defs2627" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="1912"
-     inkscape:window-height="1017"
-     inkscape:window-width="1920"
-     inkscape:object-paths="true"
-     inkscape:snap-nodes="false"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="243.64488"
-     inkscape:cx="309.96294"
-     inkscape:zoom="1.4142136"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="12.570703"
+     inkscape:cy="215.5407"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-nodes="false"
+     inkscape:object-paths="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata2630">
     <rdf:RDF>
@@ -45,17 +45,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <path
-       d="M 8.599992,0 A 8.5999994,8.5999994 0 0 0 0,8.5999917 8.5999994,8.5999994 0 0 0 8.599992,17.199985 8.5999994,8.5999994 0 0 0 17.199983,8.5999917 8.5999994,8.5999994 0 0 0 8.599992,0 Z m 45.540372,22.540742 c -10.807681,0.05892 -14.279247,7.572819 -14.399638,7.869804 -0.04756,-0.0059 -0.09416,-0.01869 -0.14056,-0.03462 V 23.700361 H 25.300265 V 71.500027 H 39.600166 40.23837 V 45.592049 c 0.235368,-3.356316 1.070044,-8.879875 6.366021,-9.768914 5.510535,-0.925058 9.65291,0.252611 10.195758,9.737391 v 25.939501 h 14.80013 v -26.9999 h -0.174664 c 0.02938,-0.05213 0.05986,-0.103225 0.08785,-0.157097 -0.314849,-1.753931 1.604894,-19.153563 -13.051917,-21.459674 -1.555924,-0.244808 -2.993924,-0.34985 -4.321184,-0.342614 z M 1.100192,23.700361 V 71.500027 H 16.100309 V 23.700361 Z"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path3214" />
+       sodipodi:nodetypes="cccccsccccccccsccccssccccc"
+       id="path3214"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.099992,0.5 C 4.3503494,0.50000409 0.50000425,4.3503491 0.5,9.0999917 c 3.37e-6,4.7496433 3.8503488,8.5999893 8.599992,8.5999933 4.749643,-5e-6 8.599988,-3.85035 8.599991,-8.5999933 C 17.699979,4.3503495 13.849634,0.50000464 9.099992,0.5 Z m 45.540372,22.540742 c -10.807681,0.05892 -14.279247,7.572819 -14.399638,7.869804 -0.04756,-0.0059 -0.09416,-0.01869 -0.14056,-0.03462 V 24.200361 H 25.800265 V 72.000027 H 40.100166 40.73837 V 46.092049 c 0.235368,-3.356316 1.070044,-8.879875 6.366021,-9.768914 5.510535,-0.925058 9.65291,0.252611 10.195758,9.737391 v 25.939501 h 14.80013 c -5.9e-5,-8.846201 0,-18.648614 0,-26.9999 -0.314849,-1.753931 1.51808,-19.31066 -13.138731,-21.616771 -1.555924,-0.244808 -2.993924,-0.34985 -4.321184,-0.342614 z M 1.600192,24.200361 V 72.000027 H 16.600309 V 24.200361 Z" />
   </g>
 </svg>

@@ -5,7 +5,7 @@ const MainLogo = () => {
     return (
         <a id="header-logo" href="." onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
             <svg height = "50" width = "50">
-                <g id="g852" transform="matrix(1.9,0,0,1.9,-6.5,-7.8)">
+                <g id="g852" transform="matrix(1.8,0,0,1.8,-4.2,-5.8)">
                     <path
                         id="path928"
                         fill={isHover ? "#ffffff" : "none"}
