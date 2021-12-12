@@ -79,23 +79,29 @@ p {
 }
 
 #header {
-    height: 65px;
+    height: auto;
     position: fixed;
     top: 0;
-    transition: top 0.2s;
+    transition: top 0.3s;
     width: 100%;
     background-color: #067F63;
-    display: flex;
-    justify-content: center;
     border-bottom: #CCECFF;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
 
+#header-content-container {
+    height: 65px;
+    width: 100%;
+    border-color: #CCCCCC;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    transition-property: border-bottom-width;
+}
+
 #header-content {
     height: 100%;
-    width: 100%;
-    margin: 0px 10px;
+    padding: 0 6px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,24 +112,59 @@ p {
     width: 50px;
 }
 
-#header-list {
+button#nav-logo-outer {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#nav-logo-inner {
+    height: 100%;
+    width: 100%;
+}
+
+ul#header-list-horizontal {
     list-style-type:none;
     padding: 0;
     margin: 0;
 }
 
-li.header-list-item {
+li#header-list-item-horizontal {
     margin: 0px 8px;
     display: inline;
 }
 
-a.header-list-item {
+#header-list-container {
+    width: 100%;
+    height: auto;
+    background-color:#08A379;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 0.5s;
+}
+
+ul#header-list-vertical {
+    list-style-type:none;
+    padding: 0px 12px;
+    margin: 8px 0px;
+    text-align: left;
+}
+
+li#header-list-item-vertical {
+    margin: 6px 0px;
+    font-size: 26px;
+}
+
+a.header-list-item-link {
     font-size: 24px;
     color: white;
     text-decoration: none;
 }
 
-a.header-list-item:hover {
+a.header-list-item-link:hover {
     color: #CCCCCC;
 }
 
@@ -182,7 +223,7 @@ a.header-list-item:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px 100px 0px;
+    padding: 100px 0px 50px 0px;
 }
 
 .section-text {
