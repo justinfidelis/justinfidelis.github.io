@@ -6,7 +6,7 @@ import LinkedInLogo from './LinkedInLogo.jsx';
 
 const Contact = () => {
     return (
-        <div id="contact" className="section-container">
+        <div id="contact" className="section-container" style={{paddingBottom: "60px"}}>
             <h2>Contact</h2>
             <hr/>
             <div id="contact-container">

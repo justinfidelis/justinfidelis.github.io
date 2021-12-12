@@ -180,7 +180,7 @@ a.header-list-item-link:hover {
 }
 
 #content-intro {
-    height: 100vh;
+    height: 95vh;
     max-height: 800px;
     width: 100%;
     display: flex;
