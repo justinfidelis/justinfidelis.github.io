@@ -140,7 +140,7 @@ li#header-list-item-horizontal {
 #header-list-container {
     width: 100%;
     height: auto;
-    background-color:#08A379;
+    background-color:#079E71;
     overflow: hidden;
     transition-property: height;
     transition-duration: 0.5s;
