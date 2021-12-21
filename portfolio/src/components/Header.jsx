@@ -46,7 +46,7 @@ const Header = () => {
     },[]);
 
     return (
-    <div id="header" style={{top: visible ? "0" : "-68px"}}>
+    <div id="header" style={{top: visible ? "0" : "-67px"}}>
         <div id="header-content-container" style={{borderBottomWidth: collapse ? "0px" : "2px", transitionDelay: collapse ? "0.5s" : "0s"}}>
             <div id="header-content">
                 <MainLogo />
