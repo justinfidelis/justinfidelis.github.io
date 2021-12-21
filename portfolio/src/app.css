@@ -133,6 +133,7 @@ ul#header-list-horizontal {
 }
 
 li#header-list-item-horizontal {
+    height: 100%;
     margin: 0px 8px;
     display: inline;
 }

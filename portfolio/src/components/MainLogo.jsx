@@ -8,9 +8,9 @@ const MainLogo = () => {
                 <g id="g852" transform="matrix(1.8,0,0,1.8,-4.2,-5.8)">
                     <path
                         id="path928"
-                        fill={isHover ? "#ffffff" : "none"}
+                        fill="none"
                         fillOpacity="0.15"
-                        stroke="#ffffff"
+                        stroke={isHover ? "#cccccc" : "#ffffff"}
                         strokeWidth="1.25"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -20,7 +20,7 @@ const MainLogo = () => {
                         d="M 16.252976,29.697918 5.4276562,23.447917 V 10.947916 L 16.252976,4.6979154 27.078296,10.947914 v 12.500003 z" />
                     <path
                         fill="none"
-                        stroke="#ffffff"
+                        stroke={isHover ? "#cccccc" : "#ffffff"}
                         strokeWidth="1.25"
                         strokeLinecap="round"
                         strokeLinejoin="miter"
@@ -31,7 +31,7 @@ const MainLogo = () => {
                         id="path839-9-3-0-5-6-9" />
                     <path
                         fill="none"
-                        stroke="#ffffff"
+                        stroke={isHover ? "#cccccc" : "#ffffff"}
                         strokeWidth="1.25"
                         strokeLinecap="round"
                         strokeLinejoin="miter"
@@ -44,7 +44,7 @@ const MainLogo = () => {
                         id="path1321-4-2-7-4"
                         d="m 21.932929,14.852002 v 6.5"
                         fill="none"
-                        stroke="#ffffff"
+                        stroke={isHover ? "#cccccc" : "#ffffff"}
                         strokeWidth="1.25"
                         strokeLinecap="round"
                         strokeLinejoin="miter"
@@ -55,7 +55,7 @@ const MainLogo = () => {
                         id="path1321-3-1-0-1"
                         d="m 19.287095,18.852002 v 2.5"
                         fill="none"
-                        stroke="#ffffff"
+                        stroke={isHover ? "#cccccc" : "#ffffff"}
                         strokeWidth="1.25"
                         strokeLinecap="round"
                         strokeLinejoin="miter"
