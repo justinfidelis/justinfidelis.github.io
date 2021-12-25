@@ -14,7 +14,17 @@ const Skills = () => {
                         <li className="skills-list-item">C++</li>
                         <li className="skills-list-item">Java</li>
                         <li className="skills-list-item">Python</li>
-                        <li className="skills-list-item">HTML + CSS + JS</li>
+                    </ul>
+                </div>
+                <div className="skills-card">
+                    <h3 className="card-title">Hardware Technologies</h3>
+                    <hr className="card-break" />
+                    <ul className="skills-list">
+                        <li className="skills-list-item">Verilog</li>
+                        <li className="skills-list-item">Arduino</li>
+                        <li className="skills-list-item">Raspberry Pi</li>
+                        <li className="skills-list-item">ARM</li>
+                        <li className="skills-list-item">ROS</li>
                     </ul>
                 </div>
                 <div className="skills-card">
@@ -26,13 +36,13 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className="skills-card">
-                    <h3 className="card-title">Hardware Technologies</h3>
+                    <h3 className="card-title">Web Development</h3>
                     <hr className="card-break" />
                     <ul className="skills-list">
-                        <li className="skills-list-item">Verilog</li>
-                        <li className="skills-list-item">Arduino</li>
-                        <li className="skills-list-item">ARM</li>
-                        <li className="skills-list-item">ROS</li>
+                        <li className="skills-list-item">HTML</li>
+                        <li className="skills-list-item">CSS</li>
+                        <li className="skills-list-item">JavaScript</li>
+                        <li className="skills-list-item">ReactJS</li>
                     </ul>
                 </div>
             </div>
