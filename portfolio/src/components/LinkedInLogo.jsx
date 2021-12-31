@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 const LinkedInLogo = () => {
     const [isHover, setIsHover] = useState(false);
     return (
-        <a className="contact-logo-container" href="https://www.linkedin.com/in/justin-wong-3732151b4/" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
+        <a className="contact-logo-container" href="https://www.linkedin.com/in/justin-fidelis-wong/" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
             <svg height = "70" width = "70">
                 <g transform="matrix(0.9,0,0,0.9,2,2)">
                 <path
