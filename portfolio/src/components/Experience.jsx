@@ -4,16 +4,28 @@ const Experience = () => {
     const [tabIndex, setTabIndex] = useState(0);
 
     let navBar = <div id="experience-list">
-        <button className={tabIndex === 0 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex (0)}>
-            Singapore Armed Forces
+        <button className={tabIndex === 2 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex (2)}>
+            National University of Singapore
         </button>
         <button className={tabIndex === 1 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex (1)}>
+            Singapore Armed Forces
+        </button>
+        <button className={tabIndex === 0 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex (0)}>
             DSO National Laboratories
         </button>
     </div>
     
     let tabs = <div id="experience-content-container">
-        <div className="experience-content" style={tabIndex === 0 ? {display: "flex"} : {display: "none"}}> 
+        <div className="experience-content" style={tabIndex === 2 ? {display: "flex"} : {display: "none"}}> 
+            <h3 className="experience-header">National University of Singapore</h3>
+            <small className="experience-role">Student Teaching Assistant</small>
+            <small className="experience-date">January 2022 - Present</small>
+            <div className="experience-text">
+                <p>Conducted weekly tutorials for CS1010 - Programming Methodology, an introductory module to C.</p>
+                <p>Prepared lesson materials and graded coding assignments.</p>
+            </div>
+        </div>
+        <div className="experience-content" style={tabIndex === 1 ? {display: "flex"} : {display: "none"}}> 
             <h3 className="experience-header">Singapore Armed Forces</h3>
             <small className="experience-role">Admin Supervisor & Section Trainer</small>
             <small className="experience-date">April 2018 - April 2020</small>
@@ -24,7 +36,7 @@ const Experience = () => {
                 <p>Received the MINDEF Service Excellence Award for Q1 2020.</p>
             </div>
         </div>
-        <div className="experience-content" style={tabIndex === 1 ? {display: "flex"} : {display: "none"}}> 
+        <div className="experience-content" style={tabIndex === 0 ? {display: "flex"} : {display: "none"}}> 
             <h3 className="experience-header">DSO National Laboratories</h3>
             <small className="experience-role">Intern</small>
             <small className="experience-date">Feb 2018 - April 2020</small>
