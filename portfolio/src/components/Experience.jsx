@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 const Experience = () => {
-    const [tabIndex, setTabIndex] = useState(0);
+    const [tabIndex, setTabIndex] = useState(2);
 
     let navBar = <div id="experience-list">
         <button className={tabIndex === 2 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex (2)}>
