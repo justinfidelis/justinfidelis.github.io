@@ -19,7 +19,7 @@ const Experience = () => {
         <div className="experience-content" style={tabIndex === 2 ? {display: "flex"} : {display: "none"}}> 
             <h3 className="experience-header">National University of Singapore</h3>
             <small className="experience-role">Student Teaching Assistant</small>
-            <small className="experience-date">January 2022 - Present</small>
+            <small className="experience-date">January 2022 - April 2022</small>
             <div className="experience-text">
                 <p>Conducted weekly tutorials for CS1010 - Programming Methodology, an introductory module to C.</p>
                 <p>Prepared lesson materials and graded coding assignments.</p>
@@ -39,7 +39,7 @@ const Experience = () => {
         <div className="experience-content" style={tabIndex === 0 ? {display: "flex"} : {display: "none"}}> 
             <h3 className="experience-header">DSO National Laboratories</h3>
             <small className="experience-role">Intern</small>
-            <small className="experience-date">Feb 2018 - April 2020</small>
+            <small className="experience-date">February 2018 - April 2020</small>
             <div className="experience-text">
                 <p>Programmed a C++ algorithm for the extrinsic calibration of a Camera-LiDAR System.</p>
             </div>
