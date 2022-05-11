@@ -413,7 +413,7 @@ button.experience-list-item-selected:hover {
     line-height: 1.4;
     text-align: left;
     color: cornsilk;
-
+    margin-bottom: 12px;
 }
 
 h3.experience-header {
