@@ -22,7 +22,7 @@ const Experience = () => {
             <small className="experience-date">May 2022 - Present</small>
             <div className="experience-text">
                 <p>Designed and developed a reinforcement learning agent in Python.</p>
-                <p>Created a simulation environment for the AI agents, including a visualisation system.</p>
+                <p>Created a simulation environment for AI agents.</p>
             </div>
             <small className="experience-role">Intern</small>
             <small className="experience-date">February 2018 - April 2020</small>
