@@ -13,7 +13,7 @@ const Education = () => {
                         B.Eng. in Computer Engineering, Honours <br/>
                         Specialisation in Internet of Things <br/>
                         Awarded NUS Merit Scholarship <br/>
-                        Current CAP: 4.97/5.0
+                        Current CAP: 4.96/5.0
                     </div>
                 </div>
 
