@@ -8,9 +8,8 @@ const About = () => {
             <div className="about-container">
                 <div id="about-text-container">
                     <div className="section-text">
-                        <p> Hello! My name is Justin and I am currently a Year 2 computer engineering student at the National University of Singapore. </p>
-                        <p> I am also pursuing a specialisation in Internet of Things (IoT)
-                            and have an interest in Artificial Intelligence, Computer Vision and Computer Networking. </p>
+                        <p> Hello! My name is Justin and I am currently a Year 3 computer engineering student at the National University of Singapore. </p>
+                        <p> I have an interest in Artificial Intelligence, Machine Learning and Computer Vision. </p>
                     </div>
                 </div>
                 <div id="about-image-container">
