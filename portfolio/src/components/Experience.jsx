@@ -2,15 +2,46 @@ import React, {useState} from 'react';
 
 const Experience = () => {
     const [tabIndex, setTabIndex] = useState(2);
+    const [hoverTabIndex, setHoverTabIndex] = useState(-1);
 
     let navBar = <div id="experience-list">
-        <button className={tabIndex === 2 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex(2)}>
+        <button
+            className={"experience-list-item"}
+            onMouseOver={() => setHoverTabIndex(2)}
+            onMouseOut={() => setHoverTabIndex(-1)}
+            onClick={() => setTabIndex(2)}
+            style={{
+                backgroundColor: hoverTabIndex === 2 ? "#353535" : "#262626",
+                color: tabIndex === 2 ? "#39E5D1" : hoverTabIndex === 2 ? "#39E5D1" : "cornsilk",
+                borderColor: tabIndex === 2 ? "#39E5D1" : "#7A7A7A",
+            }}
+        >
             DSO National Laboratories
         </button>
-        <button className={tabIndex === 1 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex (1)}>
+        <button
+            className={"experience-list-item"}
+            onMouseOver={() => setHoverTabIndex(1)}
+            onMouseOut={() => setHoverTabIndex(-1)}
+            onClick={() => setTabIndex(1)}
+            style={{
+                backgroundColor: hoverTabIndex === 1 ? "#353535" : "#262626",
+                color: tabIndex === 1 ? "#39E5D1" : hoverTabIndex === 1 ? "#39E5D1" : "cornsilk",
+                borderColor: tabIndex === 1 ? "#39E5D1" : "#7A7A7A",
+            }}
+        >
             National University of Singapore
         </button>
-        <button className={tabIndex === 0 ? "experience-list-item-selected" : "experience-list-item"} onClick={() => setTabIndex (0)}>
+        <button
+            className={"experience-list-item"}
+            onMouseOver={() => setHoverTabIndex(0)}
+            onMouseOut={() => setHoverTabIndex(-1)}
+            onClick={() => setTabIndex(0)}
+            style={{
+                backgroundColor: hoverTabIndex === 0 ? "#353535" : "#262626",
+                color: tabIndex === 0 ? "#39E5D1" : hoverTabIndex === 0 ? "#39E5D1" : "cornsilk",
+                borderColor: tabIndex === 0 ? "#39E5D1" : "#7A7A7A",
+            }}
+        >
             Singapore Armed Forces
         </button>
     </div>

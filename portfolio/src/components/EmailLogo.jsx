@@ -7,7 +7,7 @@ const EmailLogo = () => {
             <svg height = "70" width = "70">
                 <g transform="matrix(0.9,0,0,0.9,-1.1,0)">
                     <path
-                        id="path1602"
+                        d="M 7.6027863,17.344897 40.000003,44.529395 v 0 L 72.397221,17.344896"
                         fill="none"
                         stroke={isHover ? "#39E5D1" : "#ffffff"}
                         strokeWidth="2.2"
@@ -16,9 +16,10 @@ const EmailLogo = () => {
                         strokeMiterlimit="4"
                         strokeDasharray="none"
                         strokeOpacity="1"
-                        d="M 7.6027863,17.344897 40.000003,44.529395 v 0 L 72.397221,17.344896" />
+                        style={{ transition: "stroke 0.15s ease" }}
+                    />
                     <path
-                        id="path1689"
+                        d="M 34.601977,40.000088 7.6030299,62.654898"
                         fill="none"
                         stroke={isHover ? "#39E5D1" : "#ffffff"}
                         strokeWidth="2.2"
@@ -27,8 +28,10 @@ const EmailLogo = () => {
                         strokeMiterlimit="4"
                         strokeDasharray="none"
                         strokeOpacity="1"
-                        d="M 34.601977,40.000088 7.6030299,62.654898" />
+                        style={{ transition: "stroke 0.15s ease" }}
+                    />
                     <path
+                        d="M 45.398022,40.000088 72.39697,62.654898"
                         id="path1686"
                         fill="none"
                         stroke={isHover ? "#39E5D1" : "#ffffff"}
@@ -38,8 +41,10 @@ const EmailLogo = () => {
                         strokeMiterlimit="4"
                         strokeDasharray="none"
                         strokeOpacity="1"
-                        d="M 45.398022,40.000088 72.39697,62.654898" />
+                        style={{ transition: "stroke 0.15s ease" }}
+                    />
                     <path
+                        d="m 11,16 h 58 c 2.77,0 5,2.23 5,5 v 38 c 0,2.77 -2.23,5 -5,5 H 11 C 8.23,64 6,61.77 6,59 V 21 c 0,-2.77 2.23,-5 5,-5 z"
                         id="rect1426"
                         fill="none"
                         stroke={isHover ? "#39E5D1" : "#ffffff"}
@@ -49,7 +54,8 @@ const EmailLogo = () => {
                         strokeMiterlimit="4"
                         strokeDasharray="none"
                         strokeOpacity="1"
-                        d="m 11,16 h 58 c 2.77,0 5,2.23 5,5 v 38 c 0,2.77 -2.23,5 -5,5 H 11 C 8.23,64 6,61.77 6,59 V 21 c 0,-2.77 2.23,-5 5,-5 z" />
+                        style={{ transition: "stroke 0.15s ease" }}
+                    />
                 </g>
             </svg>
         </a>

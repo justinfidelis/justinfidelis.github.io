@@ -370,26 +370,7 @@ button.experience-list-item {
     text-align: left;
     color: cornsilk;
     font-size: 18px;
-}
-
-button.experience-list-item:hover {
-    background-color: #353535;
-}
-
-button.experience-list-item-selected {
-    width: 100%;
-    border-color: #39E5D1;
-    border-width: 0px 0px 0px 3px;
-    padding: 10px 10px;
-    border-style: none none none solid;
-    background-color: #262626;
-    text-align: left;
-    color: #39E5D1;
-    font-size: 18px;
-}
-
-button.experience-list-item-selected:hover {
-    background-color: #353535;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 #experience-content-container {
