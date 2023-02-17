@@ -88,7 +88,6 @@ p {
     top: 0;
     transition: top 0.3s;
     width: 100%;
-    background-color: #067F63;
     border-bottom: #CCECFF;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -97,6 +96,8 @@ p {
 #header-content-container {
     height: 65px;
     width: 100%;
+    background-color: rgba(38, 38, 38, 0.8);
+    backdrop-filter: blur(4px);
     border-color: #CCCCCC;
     border-bottom-style: solid;
     border-bottom-width: 2px;
@@ -145,14 +146,15 @@ li#header-list-item-horizontal {
 #header-list-container {
     width: 100%;
     height: auto;
-    background-color:#079E71;
+    background-color: rgba(38, 38, 38, 0.8);
+    backdrop-filter: blur(4px);
     overflow: hidden;
     transition-property: height;
     transition-duration: 0.5s;
 }
 
 ul#header-list-vertical {
-    list-style-type:none;
+    list-style-type: none;
     padding: 0px 12px;
     margin: 8px 0px;
     text-align: left;
@@ -399,6 +401,7 @@ button.experience-list-item {
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 40px;
+    transition: opacity 0.2s ease;
 }
 
 .experience-text {
