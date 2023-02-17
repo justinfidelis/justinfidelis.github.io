@@ -16,7 +16,7 @@ const Experience = () => {
                 borderColor: tabIndex === 2 ? "#39E5D1" : "#7A7A7A",
             }}
         >
-            DSO National Laboratories
+            National University of Singapore
         </button>
         <button
             className={"experience-list-item"}
@@ -29,7 +29,7 @@ const Experience = () => {
                 borderColor: tabIndex === 1 ? "#39E5D1" : "#7A7A7A",
             }}
         >
-            National University of Singapore
+            DSO National Laboratories
         </button>
         <button
             className={"experience-list-item"}
@@ -47,7 +47,29 @@ const Experience = () => {
     </div>
     
     let tabs = <div id="experience-content-container">
-        <div className="experience-content" style={tabIndex === 2 ? { display: "flex" } : { display: "none" }}>
+        <div
+            className="experience-content"
+            style={tabIndex === 2 ? { display: "flex" } : { display: "none" }}
+        >
+            <h3 className="experience-header">National University of Singapore</h3>
+            <small className="experience-role">Student Teaching Assistant</small>
+            <small className="experience-date">Jan 2023 - Present</small>
+            <div className="experience-text">
+                <p>Facilitated weekly lab sessions for CG2111A - Engineering Principles and Practice II, an intermediate module on register level programming for Arduino</p>
+
+            </div>
+            <small className="experience-role">Student Teaching Assistant</small>
+            <small className="experience-date">January 2022 - April 2022</small>
+            <div className="experience-text">
+                <p>Conducted weekly tutorials for CS1010 - Programming Methodology, an introductory module to C</p>
+                <p>Conducted regular consultation sessions for supplementary guidance</p>
+                <p>Prepared lesson materials and graded coding assignments</p>
+            </div>
+        </div>
+        <div
+            className="experience-content"
+            style={tabIndex === 1 ? { display: "flex" } : { display: "none" }}
+        >
             <h3 className="experience-header">DSO National Laboratories</h3>
             <small className="experience-role">Information Intern</small>
             <small className="experience-date">May 2022 - Oct 2022</small>
@@ -63,17 +85,10 @@ const Experience = () => {
                 <p>Programmed a C++ algorithm for the extrinsic calibration of a Camera-LiDAR System</p>
             </div>
         </div>
-        <div className="experience-content" style={tabIndex === 1 ? {display: "flex"} : {display: "none"}}> 
-            <h3 className="experience-header">National University of Singapore</h3>
-            <small className="experience-role">Student Teaching Assistant</small>
-            <small className="experience-date">January 2022 - April 2022</small>
-            <div className="experience-text">
-                <p>Conducted weekly tutorials for CS1010 - Programming Methodology, an introductory module to C</p>
-                <p>Conducted regular consultation sessions for supplementary guidance</p>
-                <p>Prepared lesson materials and graded coding assignments</p>
-            </div>
-        </div>
-        <div className="experience-content" style={tabIndex === 0 ? {display: "flex"} : {display: "none"}}> 
+        <div
+            className="experience-content"
+            style={tabIndex === 0 ? { display: "flex" } : { display: "none" }}
+        >
             <h3 className="experience-header">Singapore Armed Forces</h3>
             <small className="experience-role">Admin Supervisor & Section Trainer</small>
             <small className="experience-date">April 2018 - April 2020</small>
