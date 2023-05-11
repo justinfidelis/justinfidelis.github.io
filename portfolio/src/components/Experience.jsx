@@ -53,7 +53,7 @@ const Experience = () => {
         >
             <h3 className="experience-header">National University of Singapore</h3>
             <small className="experience-role">Student Teaching Assistant</small>
-            <small className="experience-date">Jan 2023 - Present</small>
+            <small className="experience-date">January 2023 - April 2023</small>
             <div className="experience-text">
                 <p>Facilitated weekly lab sessions for CG2111A - Engineering Principles and Practice II, an intermediate module on register level programming for Arduino</p>
 
@@ -72,9 +72,9 @@ const Experience = () => {
         >
             <h3 className="experience-header">DSO National Laboratories</h3>
             <small className="experience-role">Information Intern</small>
-            <small className="experience-date">May 2022 - Oct 2022</small>
+            <small className="experience-date">May 2022 - October 2022</small>
             <div className="experience-text">
-                <p>Conducted a literature review of existing Reinforcment Learning algorithms</p>
+                <p>Conducted a literature review of existing Reinforcement Learning algorithms</p>
                 <p>Integrated a Multi-Agent Reinforcement Learning algorithm into a simulation environment in Python</p>
                 <p>Performed controlled testing of the algorithms' learning efficiency, performance and reliability</p>
                 <p>Created a simulation environment for AI agents using the OpenAI Gym API</p>
