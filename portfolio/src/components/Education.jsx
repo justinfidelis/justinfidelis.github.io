@@ -12,7 +12,7 @@ const Education = () => {
                     <div className="education-text">
                         B.Eng. in Computer Engineering, Honours <br/>
                         Awarded NUS Merit Scholarship <br/>
-                        Current CAP: 4.96/5.0
+                        Current CAP: 4.95/5.0
                     </div>
                 </div>
 
@@ -24,11 +24,8 @@ const Education = () => {
                     Honours in Chemistry and Physics, and Major in Mathematics<br/>
                     Graduation CAP: 4.6/5.0
                     </div>
-
                 </div>
             </div>
-
-
         </div>
     );
 }

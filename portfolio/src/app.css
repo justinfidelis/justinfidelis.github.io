@@ -1,3 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -82,94 +84,27 @@ p {
     font-family: Montserrat, "Open sans", sans-serif;
 }
 
-#header {
-    height: auto;
-    position: fixed;
-    top: 0;
-    transition: top 0.3s;
-    width: 100%;
+:root {
+    --bs-dark: #262626;
+    --bs-dark-rgb: 38,38,38;
+}
+
+.navbar-dark {
+    --bs-navbar-color: #ffffff;
+    --bs-navbar-hover-color: #cccccc;
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #ffffff;
+}
+
+.navbar {
+    font-size: 24px;
     border-bottom: #CCECFF;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
 
-#header-content-container {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(38, 38, 38, 0.8);
-    backdrop-filter: blur(4px);
-    border-color: #CCCCCC;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    transition-property: border-bottom-width;
-}
-
-#header-content {
-    height: 100%;
-    padding: 0 6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#header-logo {
-    height: 50px;
-    width: 50px;
-}
-
-button#nav-logo-outer {
-    height: 50px;
-    width: 50px;
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-#nav-logo-inner {
-    height: 100%;
-    width: 100%;
-}
-
-ul#header-list-horizontal {
-    list-style-type:none;
-    padding: 0;
-    margin: 0;
-}
-
-li#header-list-item-horizontal {
-    height: 100%;
-    margin: 0px 8px;
-    display: inline;
-}
-
-#header-list-container {
-    width: 100%;
-    height: auto;
-    background-color: rgba(38, 38, 38, 0.8);
-    backdrop-filter: blur(4px);
-    overflow: hidden;
-    transition-property: height;
-    transition-duration: 0.5s;
-}
-
-ul#header-list-vertical {
-    list-style-type: none;
-    padding: 0px 12px;
-    margin: 8px 0px;
-    text-align: left;
-}
-
-li#header-list-item-vertical {
-    margin: 6px 0px;
-    font-size: 26px;
-}
-
-a.header-list-item-link {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s ease;
+.navbar-collapse {
+    --bs-dark: #ffffff;
 }
 
 path.main-logo-path {
@@ -188,48 +123,30 @@ path.main-logo-path {
 }
 
 #content-body {
-    padding: 0px 15vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0px 12vw;
+    max-width: 100%;
 }
 
 #content-intro {
-    height: 95vh;
-    max-height: 800px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#intro-container {
-    width: 100%;
-    padding: 200px 0px;
-    display: flex;
-    flex-direction: column;
+    padding: 35vh 0px 35vh 0px;
 }
 
 #intro-greeting {
     font-family: "Roboto mono", Consolas, monospace;
-    color:cornsilk;
+    color: cornsilk;
     font-size: 26px;
-    text-align: left;
 }
 
 #intro-name {
     font-family: Montserrat, "Open sans", sans-serif;
-    color:#39E5D1;
+    color: #39E5D1;
     font-size: 60px;
-    text-align: left;
 }
 
 #intro-description {
     font-family: Montserrat, "Open sans", sans-serif;
     color: cornsilk;
     font-size: 30px;
-    text-align: left;
 }
 
 .section-container {

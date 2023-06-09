@@ -1,21 +1,20 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
-const Intro = () => {
+function Intro() {
     return (
-        <div id="content-intro">
-            <div id="intro-container">
-                <div id="intro-greeting">
-                    Hi, my name is
-                </div>
-                <div id="intro-name">
-                    Justin Wong.
-                </div>
-                <div id="intro-description">
-                    I'm currently studying computer engineering at NUS.
-                </div>
-            </div>
-
-        </div>
+        <Container id="content-intro">
+            <Row className="w-100 mx-0" id="intro-greeting">
+                Hi, my name is
+            </Row>
+            <Row className="w-100 mx-0" id="intro-name">
+                Justin Wong.
+            </Row>
+            <Row className="w-100 mx-0" id="intro-description">
+                I'm currently studying computer engineering at NUS.
+            </Row>
+        </Container>
     );
 }
 

@@ -1,62 +1,26 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import MainLogo from './MainLogo';
-import HeaderList from './HeaderList.jsx';
-import NavLogo from './NavLogo.jsx';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-const Header = () => {
-    const [prevScrollPos, setPrevScrollPos] = useState(0);
-    const [visible, setVisible] = useState(true);
 
-    const [horizontal, setHorizontal] = useState(true);
-    const [collapse, setCollapse] = useState(true);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const currentScrollPos = window.pageYOffset;
-
-            setVisible(!collapse || (currentScrollPos < prevScrollPos || currentScrollPos < 10));
-
-            setPrevScrollPos(currentScrollPos);
-
-            setCollapse(true)
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, [collapse, prevScrollPos]);
-
-    useEffect(() => {
-        const handleResize = () => {
-            const windowWidth = window.innerWidth
-            const isChanged = horizontal ? windowWidth < 660 : windowWidth >= 660;
-
-            setHorizontal(windowWidth >= 660);
-            setCollapse(horizontal ? true : isChanged ? true : collapse);
-        };
-
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-
-    }, [horizontal, collapse]);
-
-    useEffect(() => {
-        setHorizontal(window.innerWidth >= 660);
-        setCollapse(true);
-    },[]);
-
+function Header() {
     return (
-    <div id="header" style={{top: visible ? "0" : "-67px"}}>
-        <div id="header-content-container" style={{borderBottomWidth: collapse ? "0px" : "2px", transitionDelay: collapse ? "0.5s" : "0s"}}>
-            <div id="header-content">
+        <Navbar className="bg-dark navbar-dark px-2 py-1 fixed-top" expand="md" collapseOnSelect>
+            <Navbar.Brand className="ms-0" href=".">
                 <MainLogo />
-                {horizontal ? <HeaderList mode="horizontal"/> : <button id="nav-logo-outer" onClick={() => setCollapse(!collapse)}><NavLogo /></button>}
-            </div>
-        </div>
-        <div id="header-list-container" style={{height: collapse ? "0px" : "196px"}}> 
-            <HeaderList mode="vertical"/>
-        </div>
-    </div>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbar-nav" />
+            <Navbar.Collapse id="navbar-nav">
+                <Nav className="ms-auto">
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#skills">Skills</Nav.Link>
+                    <Nav.Link href="#education">Education</Nav.Link>
+                    <Nav.Link href="#experience">Experience</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 }
  

@@ -5,18 +5,19 @@ import Skills from './Skills';
 import Education from './Education';
 import Experience from './Experience';
 import Contact from './Contact';
+import Container from 'react-bootstrap/Container';
 
-const Content = () => {
+function Content() {
     return (
         <div id="content">
-            <div id="content-body">
+            <Container id="content-body">
                 <Intro />
                 <About />
                 <Skills />
                 <Education />
                 <Experience />
                 <Contact />
-            </div>
+            </Container>
         </div>
     );
 }
