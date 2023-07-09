@@ -89,22 +89,28 @@ p {
     --bs-dark-rgb: 38,38,38;
 }
 
-.navbar-dark {
+.navbar {
+    background-color: rgba(38, 38, 38, 0.8);
+    backdrop-filter: blur(4px);
     --bs-navbar-color: #ffffff;
     --bs-navbar-hover-color: #cccccc;
     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
     --bs-navbar-active-color: #ffffff;
-}
-
-.navbar {
     font-size: 24px;
     border-bottom: #CCECFF;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
 
-.navbar-collapse {
-    --bs-dark: #ffffff;
+.navbar-toggler {
+    --bs-border-width: 2px;
+    --bs-navbar-toggler-focus-width: 0px;
+    --bs-navbar-toggler-border-color: #cccccc;
+    --bs-navbar-toggler-icon-bg: 0;
+}
+
+.navbar-toggler:hover {
+    --bs-navbar-toggler-border-color: #aaaaaa;
 }
 
 path.main-logo-path {

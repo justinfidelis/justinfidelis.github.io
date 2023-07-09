@@ -1,5 +1,5 @@
 import React from 'react';
-import EmailLogo from './EmailLogo.jsx';
+import EmailLogo from './EmailIcon.jsx';
 import GitHubLogo from './GitHubLogo.jsx';
 import LinkedInLogo from './LinkedInLogo.jsx';
 

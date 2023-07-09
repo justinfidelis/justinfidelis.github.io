@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import MainLogo from './MainLogo';
+import HamburgerIcon from './HamburgerIcon';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 
 function Header() {
+    const [isToggleHover, setIsToggleHover] = useState(false);
     return (
-        <Navbar className="bg-dark navbar-dark px-2 py-1 fixed-top" expand="md" collapseOnSelect>
+        <Navbar className="navbar-dark px-2 py-1 fixed-top" expand="md" collapseOnSelect={true}>
             <Navbar.Brand className="ms-0" href=".">
                 <MainLogo />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbar-nav" />
+            <Navbar.Toggle aria-controls="navbar-nav" onMouseEnter={() => setIsToggleHover(true)} onMouseLeave={() => setIsToggleHover(false)}>
+                <HamburgerIcon isHover={isToggleHover}/>
+            </Navbar.Toggle>
             <Navbar.Collapse id="navbar-nav">
                 <Nav className="ms-auto">
                     <Nav.Link href="#about">About</Nav.Link>
