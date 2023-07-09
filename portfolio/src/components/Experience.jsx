@@ -56,7 +56,7 @@ const Experience = () => {
             <small className="experience-date">January 2023 - April 2023</small>
             <div className="experience-text">
                 <p>Facilitated weekly lab sessions for CG2111A - Engineering Principles and Practice II, an intermediate module on register level programming for Arduino</p>
-
+                <p>Marked lab reports</p>
             </div>
             <small className="experience-role">Student Teaching Assistant</small>
             <small className="experience-date">January 2022 - April 2022</small>
