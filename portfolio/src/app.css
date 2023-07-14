@@ -148,14 +148,13 @@ path {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px 50px 0px;
+    padding: 80px 0px 50px 0px;
 }
 
 .section-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: Montserrat, "Open sans", sans-serif;
     color: cornsilk;
     font-size: 1.125rem;
     text-align: left;
@@ -182,11 +181,19 @@ img.about-image {
     height: auto;
 }
 
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-auto-rows: 1fr;
+}
+
 .skill-card {
-    width: 270px;
-    border-width: 0px;
+    width: 100%;
     background-color: transparent;
-    margin: 15px;
+    margin: 15px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h5.card-title {
@@ -218,7 +225,7 @@ hr.card-break {
     width: 100px;
     background-color: cornsilk;
     border-width: 0px;
-    margin-top: 4px;
+    margin-top: 8px;
     margin-bottom: 8px;
 }
 
