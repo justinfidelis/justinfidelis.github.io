@@ -1,11 +1,11 @@
 import '../app.css';
 
-import Header from './Header';
+import Header from './nav/Header';
 import Content from './Content';
 
-const App = () => {
+function App() {
     return (
-        <div id = "app">
+        <div id="app">
             <Header />
             <Content />
         </div>

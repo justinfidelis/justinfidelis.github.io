@@ -1,23 +1,22 @@
 import React from 'react';
-import Intro from './Intro';
-import About from './About';
-import Skills from './Skills';
-import Education from './Education';
-import Experience from './Experience';
-import Contact from './Contact';
+import Intro from './intro/Intro';
+import About from './about/About';
+import Skills from './skills/Skills';
+import Education from './education/Education';
+import Experience from './experience/Experience';
+import Contact from './contact/Contact';
+import Container from 'react-bootstrap/Container';
 
-const Content = () => {
+function Content() {
     return (
-        <div id="content">
-            <div id="content-body">
-                <Intro />
-                <About />
-                <Skills />
-                <Education />
-                <Experience />
-                <Contact />
-            </div>
-        </div>
+      <Container fluid id="content">
+        <Intro />
+        <About />
+        <Skills />
+        <Education />
+        <Experience />
+        <Contact />
+      </Container>
     );
 }
 
