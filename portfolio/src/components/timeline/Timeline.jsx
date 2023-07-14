@@ -7,8 +7,9 @@ import TimelineItem from "./TimelineItem";
 const Timeline = (data) => {
     return (
       <Container className="section-text">
-        <TimelineItem data={data.data[0]} />
-        <TimelineItem data={data.data[1]} />
+        {data.data.map((data, idx) => (
+          <TimelineItem data={data} key={idx}/>
+        ))}
       </Container>
     );
 }
