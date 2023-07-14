@@ -1,159 +1,124 @@
 import React, {useState} from 'react';
 
 const Experience = () => {
-    const [tabIndex, setTabIndex] = useState(2);
+    const [tabIndex, setTabIndex] = useState(0);
     const [hoverTabIndex, setHoverTabIndex] = useState(-1);
 
-    
+    const experienceData = [
+      {
+        name: "National University of Singapore",
+        experience: [
+          {
+            title: "Student Teaching Assistant",
+            date: "January 2023 - April 2023",
+            description: [
+              "Facilitated weekly lab sessions for CG2111A - Engineering Principles and Practice II, " +
+                "an intermediate module on register level programming for Arduino",
+            ],
+          },
+          {
+            title: "Student Teaching Assistant",
+            date: "January 2022 - April 2022",
+            description: [
+              "Conducted weekly tutorials for CS1010 - Programming Methodology, an introductory module to C",
+              "Conducted regular consultation sessions for supplementary guidance",
+              "Prepared lesson materials and graded coding assignments",
+            ],
+          },
+        ],
+      },
+      {
+        name: "DSO National Laboratories",
+        experience: [
+          {
+            title: "Information Intern",
+            date: "May 2022 - October 2022",
+            description: [
+              "Conducted a literature review of existing Reinforcement Learning algorithms",
+              "Integrated a Multi-Agent Reinforcement Learning algorithm into a simulation " +
+                "environment in Python",
+              "Performed controlled testing of the algorithms' learning efficiency, performance and reliability",
+              "Created a simulation environment for AI agents using the OpenAI Gym API",
+            ],
+          },
+          {
+            title: "Robotics Intern",
+            date: "February 2018 - April 2018",
+            description: [
+              "Programmed a C++ algorithm for the extrinsic calibration of a Camera-LiDAR System",
+            ],
+          },
+        ],
+      },
+      {
+        name: "Singapore Armed Forces",
+        experience: [
+          {
+            title: "Admin Supervisor & Section Trainer",
+            date: "April 2018 - April 2020",
+            description: [
+              "Conducted lessons for 12 batches of trainees on the responsibilities and requisite technical " +
+              "knowledge of an admin support assistant",
+              "Managed administrative work at the company level, including  management of personal data " +
+              "and consolidation of course results",
+              "Coordinated the implementation of an online platform to support the conduct of the course",
+              "Received the MINDEF Service Excellence Award for Q1 2020",
+            ],
+          },
+        ],
+      },
+    ];
 
     let navBar = (
       <div id="experience-list">
-        <button
-          className={"experience-list-item"}
-          onMouseOver={() => setHoverTabIndex(2)}
-          onMouseOut={() => setHoverTabIndex(-1)}
-          onClick={() => setTabIndex(2)}
-          style={{
-            backgroundColor: hoverTabIndex === 2 ? "#303030" : "#202020",
-            color:
-              tabIndex === 2
-                ? "#96fff3"
-                : hoverTabIndex === 2
-                ? "#96fff3"
-                : "cornsilk",
-            borderColor: tabIndex === 2 ? "#96fff3" : "#40635f",
-          }}
-        >
-          National University of Singapore
-        </button>
-        <button
-          className={"experience-list-item"}
-          onMouseOver={() => setHoverTabIndex(1)}
-          onMouseOut={() => setHoverTabIndex(-1)}
-          onClick={() => setTabIndex(1)}
-          style={{
-            backgroundColor: hoverTabIndex === 1 ? "#303030" : "#202020",
-            color:
-              tabIndex === 1
-                ? "#96fff3"
-                : hoverTabIndex === 1
-                ? "#96fff3"
-                : "cornsilk",
-            borderColor: tabIndex === 1 ? "#96fff3" : "#40635f",
-          }}
-        >
-          DSO National Laboratories
-        </button>
-        <button
-          className={"experience-list-item"}
-          onMouseOver={() => setHoverTabIndex(0)}
-          onMouseOut={() => setHoverTabIndex(-1)}
-          onClick={() => setTabIndex(0)}
-          style={{
-            backgroundColor: hoverTabIndex === 0 ? "#303030" : "#202020",
-            color:
-              tabIndex === 0
-                ? "#96fff3"
-                : hoverTabIndex === 0
-                ? "#96fff3"
-                : "cornsilk",
-            borderColor: tabIndex === 0 ? "#96fff3" : "#40635f",
-          }}
-        >
-          Singapore Armed Forces
-        </button>
+        {experienceData.map((org, idx) => (
+          <button
+            className={"experience-list-item"}
+            onMouseOver={() => setHoverTabIndex(idx)}
+            onMouseOut={() => setHoverTabIndex(-1)}
+            onClick={() => setTabIndex(idx)}
+            style={{
+              backgroundColor: hoverTabIndex === idx ? "#303030" : "#202020",
+              color:
+                tabIndex === idx
+                  ? "#96fff3"
+                  : hoverTabIndex === idx
+                  ? "#96fff3"
+                  : "cornsilk",
+              borderColor: tabIndex === idx ? "#96fff3" : "#40635f",
+            }}
+            key={idx}
+          >
+            {org.name}
+          </button>
+        ))}
       </div>
     );
     
     let tabs = (
       <div id="experience-content-container">
-        <div
-          className="experience-content"
-          style={tabIndex === 2 ? { display: "flex" } : { display: "none" }}
-        >
-          <h3 className="highlight">National University of Singapore</h3>
-          <small className="experience-role">Student Teaching Assistant</small>
-          <small className="experience-date">January 2023 - April 2023</small>
-          <div className="experience-text">
-            <p>
-              Facilitated weekly lab sessions for CG2111A - Engineering
-              Principles and Practice II, an intermediate module on register
-              level programming for Arduino
-            </p>
+        {experienceData.map((org, idx) => (
+          <div
+            className="experience-content"
+            style={
+              tabIndex === idx ? { display: "flex" } : { display: "none" }
+            }
+            key={idx}
+          >
+            <h3 className="highlight">{org.name}</h3>
+            {org.experience.map((exp, idx) => (
+              <div className="experience-role" key={idx}>
+                <small className="experience-title">{exp.title}</small>
+                <small className="experience-date">{exp.date}</small>
+                <div className="experience-text">
+                  {exp.description.map((line, idx) => (
+                    <p key={idx}>{line}</p>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-          <small className="experience-role">Student Teaching Assistant</small>
-          <small className="experience-date">January 2022 - April 2022</small>
-          <div className="experience-text">
-            <p>
-              Conducted weekly tutorials for CS1010 - Programming Methodology,
-              an introductory module to C
-            </p>
-            <p>
-              Conducted regular consultation sessions for supplementary guidance
-            </p>
-            <p>Prepared lesson materials and graded coding assignments</p>
-          </div>
-        </div>
-        <div
-          className="experience-content"
-          style={tabIndex === 1 ? { display: "flex" } : { display: "none" }}
-        >
-          <h3 className="highlight">DSO National Laboratories</h3>
-          <small className="experience-role">Information Intern</small>
-          <small className="experience-date">May 2022 - October 2022</small>
-          <div className="experience-text">
-            <p>
-              Conducted a literature review of existing Reinforcement Learning
-              algorithms
-            </p>
-            <p>
-              Integrated a Multi-Agent Reinforcement Learning algorithm into a
-              simulation environment in Python
-            </p>
-            <p>
-              Performed controlled testing of the algorithms' learning
-              efficiency, performance and reliability
-            </p>
-            <p>
-              Created a simulation environment for AI agents using the OpenAI
-              Gym API
-            </p>
-          </div>
-          <small className="experience-role">Robotics Intern</small>
-          <small className="experience-date">February 2018 - April 2020</small>
-          <div className="experience-text">
-            <p>
-              Programmed a C++ algorithm for the extrinsic calibration of a
-              Camera-LiDAR System
-            </p>
-          </div>
-        </div>
-        <div
-          className="experience-content"
-          style={tabIndex === 0 ? { display: "flex" } : { display: "none" }}
-        >
-          <h3 className="highlight">Singapore Armed Forces</h3>
-          <small className="experience-role">
-            Admin Supervisor & Section Trainer
-          </small>
-          <small className="experience-date">April 2018 - April 2020</small>
-          <div className="experience-text">
-            <p>
-              Conducted lessons for 12 batches of trainees on the
-              responsibilities and requisite technical knowledge of an admin
-              support assistant
-            </p>
-            <p>
-              Managed administrative work at the company level, including
-              management of personal data and consolidation of course results
-            </p>
-            <p>
-              Coordinated the implementation of an online platform to support
-              the conduct of the course
-            </p>
-            <p>Received the MINDEF Service Excellence Award for Q1 2020</p>
-          </div>
-        </div>
+        ))}
       </div>
     );
 
