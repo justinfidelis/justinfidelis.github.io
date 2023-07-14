@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
 
 const Experience = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -123,14 +125,18 @@ const Experience = () => {
     );
 
     return (
-        <div id="experience" className="section-container">
-            <h2>Experience</h2>
-            <hr/>
-            <div id="experience-container">
-                {navBar}
-                {tabs}
-            </div>
-        </div>
+      <Container id="experience" className="section-container">
+        <Row>
+          <h2>Experience</h2>
+        </Row>
+        <Row className="justify-content-center">
+          <hr className="subtitle-break" />
+        </Row>
+        <Row id="experience-container">
+          {navBar}
+          {tabs}
+        </Row>
+      </Container>
     );
 }
 
