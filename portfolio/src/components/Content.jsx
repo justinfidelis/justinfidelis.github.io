@@ -9,16 +9,14 @@ import Container from 'react-bootstrap/Container';
 
 function Content() {
     return (
-        <div id="content">
-            <Container id="content-body">
-                <Intro />
-                <About />
-                <Skills />
-                <Education />
-                <Experience />
-                <Contact />
-            </Container>
-        </div>
+      <Container fluid id="content">
+        <Intro />
+        <About />
+        <Skills />
+        <Education />
+        <Experience />
+        <Contact />
+      </Container>
     );
 }
 

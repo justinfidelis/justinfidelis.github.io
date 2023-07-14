@@ -4,15 +4,21 @@ import Container from 'react-bootstrap/Container';
 
 function Intro() {
     return (
-        <Container id="content-intro">
-            <Row className="w-100 mx-0" id="intro-greeting">
-                Hi, my name is
+        <Container id="intro">
+            <Row>
+                <p className="mb-0" id="intro-greeting">
+                    Hi, my name is
+                </p>
             </Row>
-            <Row className="w-100 mx-0" id="intro-name">
-                Justin Wong.
+            <Row>
+                <p className="mb-0" id="intro-name">
+                    Justin Wong.
+                </p>
             </Row>
-            <Row className="w-100 mx-0" id="intro-description">
-                I'm currently studying computer engineering at NUS.
+            <Row>
+                <p className="mb-0" id="intro-description">
+                    I'm currently studying computer engineering at NUS.
+                </p>
             </Row>
         </Container>
     );

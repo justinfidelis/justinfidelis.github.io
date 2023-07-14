@@ -1,52 +1,100 @@
 import React from 'react';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
 
 const Skills = () => {
     return (
-        <div id="skills" className="section-container">
-            <h2>Skills</h2>
-            <hr/>
-            <div className="skills-container">
-                <div className="skills-card">
-                    <h3 className="card-title">Programming Languages</h3>
-                    <hr className="card-break" />
-                    <ul className="skills-list">
-                        <li className="skills-list-item">C</li>
-                        <li className="skills-list-item">C++</li>
-                        <li className="skills-list-item">Java</li>
-                        <li className="skills-list-item">Python</li>
-                    </ul>
+      <Container id="skills" className="section-container">
+        <Row>
+          <h2>Skills</h2>
+        </Row>
+        <Row className="justify-content-center">
+          <hr className="subtitle-break" />
+        </Row>
+        <Row>
+          <Col className="d-flex justify-content-center">
+            <Card className="skill-card">
+              <Card.Body className="pt-2 px-2">
+                <Card.Title>
+                  <h5 className="card-title">Programming Languages</h5>
+                </Card.Title>
+                <div className="d-flex justify-content-center">
+                  <hr className="card-break" />
                 </div>
-                <div className="skills-card">
-                    <h3 className="card-title">Hardware Technologies</h3>
-                    <hr className="card-break" />
-                    <ul className="skills-list">
-                        <li className="skills-list-item">Verilog</li>
-                        <li className="skills-list-item">Arduino</li>
-                        <li className="skills-list-item">Raspberry Pi</li>
-                        <li className="skills-list-item">ARM</li>
-                        <li className="skills-list-item">ROS</li>
-                    </ul>
+                <Card.Text>
+                  <ul className="skills-list">
+                    <li className="skills-li">C</li>
+                    <li className="skills-li">C++</li>
+                    <li className="skills-li">Java</li>
+                    <li className="skills-li">Python</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="d-flex justify-content-center">
+            <Card className="skill-card">
+              <Card.Body className="pt-2 px-2">
+                <Card.Title>
+                  <h5 className="card-title">Hardware Technologies</h5>
+                </Card.Title>
+                <div className="d-flex justify-content-center">
+                  <hr className="card-break" />
                 </div>
-                <div className="skills-card">
-                    <h3 className="card-title">Database Management</h3>
-                    <hr className="card-break" />
-                    <ul className="skills-list">
-                        <li className="skills-list-item">PostgreSQL</li>
-                        <li className="skills-list-item">MySQL</li>
-                    </ul>
+                <Card.Text>
+                  <ul className="skills-list">
+                    <li className="skills-li">Verilog</li>
+                    <li className="skills-li">Arduino</li>
+                    <li className="skills-li">Raspberry Pi</li>
+                    <li className="skills-li">ARM</li>
+                    <li className="skills-li">ROS</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="d-flex justify-content-center">
+            <Card className="skill-card">
+              <Card.Body className="pt-2 px-2">
+                <Card.Title>
+                  <h5 className="card-title">Database Management</h5>
+                </Card.Title>
+                <div className="d-flex justify-content-center">
+                  <hr className="card-break" />
                 </div>
-                <div className="skills-card">
-                    <h3 className="card-title">Web Development</h3>
-                    <hr className="card-break" />
-                    <ul className="skills-list">
-                        <li className="skills-list-item">HTML</li>
-                        <li className="skills-list-item">CSS</li>
-                        <li className="skills-list-item">JavaScript</li>
-                        <li className="skills-list-item">ReactJS</li>
-                    </ul>
+                <Card.Text>
+                  <ul className="skills-list">
+                    <li className="skills-li">PostgreSQL</li>
+                    <li className="skills-li">MySQL</li>
+                    <li className="skills-li">Firestore</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="d-flex justify-content-center">
+            <Card className="skill-card">
+              <Card.Body className="pt-2 px-2">
+                <Card.Title>
+                  <h5 className="card-title">Web Development</h5>
+                </Card.Title>
+                <div className="d-flex justify-content-center">
+                  <hr className="card-break" />
                 </div>
-            </div>
-        </div>
+                <Card.Text>
+                  <ul className="skills-list">
+                    <li className="skills-li">HTML/CSS/JavaScript</li>
+                    <li className="skills-li">ReactJS</li>
+                    <li className="skills-li">Firebase</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
     );
 }
 

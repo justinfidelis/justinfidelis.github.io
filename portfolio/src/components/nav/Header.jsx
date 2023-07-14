@@ -9,7 +9,7 @@ function Header() {
     const [isToggleHover, setIsToggleHover] = useState(false);
     return (
         <Navbar className="navbar-dark px-2 py-1 fixed-top" expand="md" collapseOnSelect={true}>
-            <Navbar.Brand className="ms-0" href=".">
+            <Navbar.Brand className="mx-0" href=".">
                 <MainLogo />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" onMouseEnter={() => setIsToggleHover(true)} onMouseLeave={() => setIsToggleHover(false)}>

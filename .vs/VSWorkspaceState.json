@@ -4,8 +4,9 @@
     "\\portfolio",
     "\\portfolio\\public",
     "\\portfolio\\src",
-    "\\portfolio\\src\\components"
+    "\\portfolio\\src\\components",
+    "\\portfolio\\src\\components\\nav"
   ],
-  "SelectedNode": "\\portfolio\\src\\components\\Education.jsx",
+  "SelectedNode": "\\portfolio\\src\\components\\Intro.jsx",
   "PreviewInSolutionExplorer": false
 }

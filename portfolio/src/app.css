@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -10,7 +10,7 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: #565656;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -28,13 +28,14 @@ html {
 body {
     margin: 0px;
     max-width: 100vw;
+    line-height: normal;
 }
 
 h2 {
     text-align: center;
     font-family: Montserrat, 'Open sans', sans-serif;
     color: cornsilk;
-    font-size: 34px;
+    font-size: 2rem;
     font-weight: normal;
     width: 100%;
     margin: 0px;
@@ -44,7 +45,7 @@ h3 {
     text-align: left;
     font-family: Montserrat, 'Open Sans', sans-serif;
     color: cornsilk;
-    font-size: 28px;
+    font-size: 1.5rem;
     font-weight: normal;
     width: 100%;
     margin: 0px;
@@ -54,33 +55,30 @@ small {
     text-align: left;
     font-family: 'Open Sans', Roboto, sans-serif;
     color: #EDDCA6;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
 }
 
-hr {
-    height: 2px;
+hr.subtitle-break {
+    height: 2.3px;
     width: 60px;
-    background-color: #39E5D1;
+    background-color: #96fff3;
     border-width: 0px;
-    margin-top: 8px;
-    margin-bottom: 30px;
-}
-
-p {
-    margin: 0em 0em 0.8em 0em;
+    margin: 8px 0px 30px 0px;
+    opacity: 1;
 }
 
 #root {
     height: 100%;
     width: 100%;
+    font-size: 16px;
     background-color: #262626;
 }
 
 #app {
     height: 100%;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-family: Montserrat, "Open sans", sans-serif;
 }
 
@@ -113,46 +111,35 @@ p {
     --bs-navbar-toggler-border-color: #aaaaaa;
 }
 
-path.main-logo-path {
+path {
     transition: stroke 0.15s ease;
-    fill: none;
-    stroke-width: 1.25;
-    stroke-linecap: round;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 4;
-    stroke-dasharray: none;
-    stroke-opacity: 1
 }
 
 #content {
+    padding: 0px 12vw;
     height: 100%;
 }
 
-#content-body {
-    padding: 0px 12vw;
-    max-width: 100%;
-}
-
-#content-intro {
-    padding: 35vh 0px 35vh 0px;
+#intro {
+    padding: 40vh 0px 45vh 0px;
 }
 
 #intro-greeting {
     font-family: "Roboto mono", Consolas, monospace;
     color: cornsilk;
-    font-size: 26px;
+    font-size: 1.5rem;
 }
 
 #intro-name {
     font-family: Montserrat, "Open sans", sans-serif;
-    color: #39E5D1;
-    font-size: 60px;
+    color: #6bffee;
+    font-size: 3.5rem;
 }
 
 #intro-description {
     font-family: Montserrat, "Open sans", sans-serif;
     color: cornsilk;
-    font-size: 30px;
+    font-size: 1.75rem;
 }
 
 .section-container {
@@ -165,23 +152,20 @@ path.main-logo-path {
 }
 
 .section-text {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     font-family: Montserrat, "Open sans", sans-serif;
     color: cornsilk;
-    font-size: 20px;
+    font-size: 1.125rem;
     text-align: left;
 }
 
-.about-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
-    flex-wrap: wrap;
+#about-text-container {
+    flex-basis: 0;
+    flex-grow: 1.5;
+    flex-shrink: 1;
+    min-width: 300px;
 }
 
 #about-image-container {
@@ -198,51 +182,34 @@ img.about-image {
     height: auto;
 }
 
-#about-text-container {
-
-    flex-basis: 0;
-    flex-grow: 1.5;
-    flex-shrink: 1;
-    min-width: 300px;
-}
-
-.skills-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 1fr;
-}
-
-.skills-card {
-    background-color: #067F63;
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: #0B4C3E;
-    border-style: solid;
+.skill-card {
+    width: 270px;
+    border-width: 0px;
+    background-color: transparent;
     margin: 15px;
-    padding: 15px 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 
-h3.card-title {
+h5.card-title {
+    color:#96fff3;
     text-align: center;
-    padding-bottom: 1px;
-    font-size: 24px;
+    font-size: 1.375rem;
 }
 
 ul.skills-list {
-    width: 80%;
-    padding: 0px 10%;
+    width: 100%;
+    padding: 0px 5%;
     margin: 0;
-    text-align: left;
+    text-align: center;
     color: cornsilk;
-    font-size: 20px;
+    font-size: 1.125rem;
 }
 
-li.skills-list-item {
+li::marker {
+    content: '';
+    font-size: 1.125rem;
+}
+
+li.skills-li {
     margin: 2px 0px;
 }
 
@@ -251,7 +218,8 @@ hr.card-break {
     width: 100px;
     background-color: cornsilk;
     border-width: 0px;
-    margin-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 h3.education-header {
