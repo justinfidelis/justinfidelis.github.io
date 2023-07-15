@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
 
 const TimelineItem = ({data}) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -37,8 +36,17 @@ const TimelineItem = ({data}) => {
             <small>{data.date}</small>
           </Row>
         )}
+        {data?.subtitle && (
+          <Row>
+            <small className="timeline-subtitle">{data.subtitle}</small>
+          </Row>
+        )}
         <Row className="lh-base education-text">
-          <div style={{ whiteSpace: "pre-wrap" }}>{data.text}</div>
+          <div style={{ whiteSpace: "pre-wrap" }}>
+            {data.text.map((line, idx) => (
+              <p key={idx}>{line}</p>
+            ))}
+          </div>
         </Row>
         <span className="circle"></span>
       </Col>

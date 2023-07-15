@@ -31,10 +31,19 @@ body {
     line-height: normal;
 }
 
+:root {
+    --bs-dark: #202020;
+    --bs-dark-rgb: 32, 32, 32;
+    --cornsilk: #fff8dc;
+    --iceblue: #8afff1;
+    --cyan: #6bffee;
+    --vanilla: #eddca6;
+    --silver: #bfbaae;
+}
+
 h2 {
     text-align: center;
     font-family: Montserrat, 'Open sans', sans-serif;
-    color: cornsilk;
     font-size: 2rem;
     font-weight: normal;
     width: 100%;
@@ -44,7 +53,6 @@ h2 {
 h3 {
     text-align: left;
     font-family: Montserrat, 'Open Sans', sans-serif;
-    color: cornsilk;
     font-size: 1.625rem;
     font-weight: normal;
     width: 100%;
@@ -53,13 +61,13 @@ h3 {
 
 h3.highlight {
     padding-bottom: 8px;
-    color: #8afff1
+    color: var(--iceblue);
 }
 
 small {
     text-align: left;
     font-family: 'Open Sans', Roboto, sans-serif;
-    color: #EDDCA6;
+    color: var(--vanilla);
     font-size: 1rem;
     text-align: left;
 }
@@ -67,7 +75,7 @@ small {
 hr.subtitle-break {
     height: 2.3px;
     width: 60px;
-    background-color: #8afff1;
+    background-color: var(--iceblue);
     border-width: 0px;
     margin: 8px 0px 30px 0px;
     opacity: 1;
@@ -85,11 +93,7 @@ hr.subtitle-break {
     width: 100%;
     text-align: left;
     font-family: Montserrat, "Open sans", sans-serif;
-}
-
-:root {
-    --bs-dark: #202020;
-    --bs-dark-rgb: 32,32,32;
+    color: var(--cornsilk);
 }
 
 .navbar {
@@ -131,19 +135,17 @@ path {
 
 #intro-greeting {
     font-family: "Roboto mono", Consolas, monospace;
-    color: cornsilk;
     font-size: 1.5rem;
 }
 
 #intro-name {
     font-family: Montserrat, "Open sans", sans-serif;
-    color: #6bffee;
+    color: var(--cyan);
     font-size: 3.5rem;
 }
 
 #intro-description {
     font-family: Montserrat, "Open sans", sans-serif;
-    color: cornsilk;
     font-size: 1.75rem;
 }
 
@@ -160,7 +162,6 @@ path {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: cornsilk;
     font-size: 1.125rem;
     text-align: left;
 }
@@ -201,7 +202,7 @@ img.about-image {
 }
 
 h5.card-title {
-    color:#8afff1;
+    color:var(--iceblue);
     text-align: center;
     font-size: 1.375rem;
 }
@@ -211,7 +212,6 @@ ul.skills-list {
     padding: 0px 5%;
     margin: 0;
     text-align: center;
-    color: cornsilk;
     font-size: 1.125rem;
 }
 
@@ -240,6 +240,11 @@ hr.card-break {
     min-width: 200px;
     max-width: 200px;
     line-height: 1.95rem;
+}
+
+.timeline-subtitle {
+    color: var(--silver);
+    padding-bottom: 6px;
 }
 
 .timeline-content {
@@ -329,7 +334,6 @@ button.experience-list-item {
 .experience-text {
     font-size: 1.125rem;
     line-height: 1.4;
-    
     text-align: left;
     color: cornsilk;
     margin-bottom: 12px;
@@ -341,7 +345,7 @@ small.experience-date {
 }
 
 small.experience-title {
-    color: #BFBAAE;
+    color: var(--vanilla);
     padding-bottom: 6px;
 }
 
