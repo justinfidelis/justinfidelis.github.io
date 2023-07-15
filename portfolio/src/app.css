@@ -99,12 +99,12 @@ hr.subtitle-break {
 .navbar {
     background-color: rgba(32, 32, 32, 0.8);
     backdrop-filter: blur(4px);
-    --bs-navbar-color: #ffffff;
-    --bs-navbar-hover-color: #cccccc;
-    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
-    --bs-navbar-active-color: #ffffff;
+    --bs-navbar-color: cornsilk;
+    --bs-navbar-hover-color: #C7BFA3;
+    --bs-navbar-disabled-color: #ffffff40;
+    --bs-navbar-active-color: cornsilk;
     font-size: 24px;
-    border-bottom: #CCECFF;
+    border-bottom: cornsilk;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
@@ -302,7 +302,6 @@ button.experience-list-item {
     border-style: none none none solid;
     background-color: #202020;
     text-align: left;
-    color: cornsilk;
     font-size: 18px;
     transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
