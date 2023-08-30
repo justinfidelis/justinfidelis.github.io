@@ -12,6 +12,7 @@ const Experience = () => {
         text: [
           "Facilitated weekly lab sessions for CG2111A - Engineering Principles and Practice II, " +
             "an intermediate module on register level programming for Arduino",
+          "Guided 8 groups of students in their project to create a remote-controlled environment mapping robot",
         ],
       },
       {
@@ -19,9 +20,8 @@ const Experience = () => {
         subtitle: "Information Intern",
         date: "May 2022 - Oct 2022",
         text: [
-          "Conducted a literature review of existing Reinforcement Learning algorithms",
-          "Integrated a Multi-Agent Reinforcement Learning algorithm into a simulation " +
-            "environment in Python",
+          "Surveyed existing Reinforcement and Imitation Learning algorithms and assessed their suitability",
+          "Integrated a Multi-Agent Reinforcement Learning algorithm into a Python simulation environment",
           "Performed controlled testing of the algorithms' learning efficiency, performance and reliability",
           "Created a simulation environment for AI agents using the OpenAI Gym API",
         ],
@@ -54,7 +54,7 @@ const Experience = () => {
         subtitle: "Robotics Intern",
         date: "Feb 2018 - Apr 2018",
         text: [
-          "Programmed a C++ algorithm for the extrinsic calibration of a Camera-LiDAR System",
+          "Automated the extrinsic calibration of a Camera-LiDAR system using a C++ algorithm",
         ],
       },
     ];
