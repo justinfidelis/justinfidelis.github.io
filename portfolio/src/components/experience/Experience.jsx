@@ -1,10 +1,19 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Timeline from '../timeline/Timeline';
 
 const Experience = () => {
     const experienceData = [
+      {
+        title: "National University of Singapore",
+        subtitle: "Student Teaching Assistant",
+        date: "Aug 2023 - Nov 2023",
+        text: [
+          "Conducted weekly lab sessions for CS1010 - Programming Methodology, an introductory module to C",
+          "Prepared lesson materials and graded coding assignments",
+        ],
+      },
       {
         title: "National University of Singapore",
         subtitle: "Student Teaching Assistant",
