@@ -1,12 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\images",
     "\\portfolio",
     "\\portfolio\\public",
     "\\portfolio\\src",
     "\\portfolio\\src\\components",
-    "\\portfolio\\src\\components\\nav"
+    "\\portfolio\\src\\components\\experience",
+    "\\portfolio\\src\\components\\nav",
+    "\\portfolio\\src\\components\\timeline"
   ],
-  "SelectedNode": "\\portfolio\\src\\components\\Intro.jsx",
   "PreviewInSolutionExplorer": false
 }

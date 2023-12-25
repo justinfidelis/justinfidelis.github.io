@@ -81,6 +81,27 @@ hr.subtitle-break {
     opacity: 1;
 }
 
+a.inline {
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+a.inline:link {
+    color: #F4D26B;
+}
+
+a.inline:visited {
+    color: #F4D26B;
+}
+
+a.inline:hover {
+    color: var(--vanilla);
+}
+
+a.inline:active {
+    color: var(--cyan);
+}
+
 #root {
     height: 100%;
     width: 100%;

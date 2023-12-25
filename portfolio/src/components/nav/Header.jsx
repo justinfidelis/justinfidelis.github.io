@@ -17,11 +17,21 @@ function Header() {
             </Navbar.Toggle>
             <Navbar.Collapse id="navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link href="#about">About</Nav.Link>
-                    <Nav.Link href="#skills">Skills</Nav.Link>
-                    <Nav.Link href="#education">Education</Nav.Link>
-                    <Nav.Link href="#experience">Experience</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Item>
+                        <Nav.Link href="#about">About</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#education">Education</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#experience">Experience</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
