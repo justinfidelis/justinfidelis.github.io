@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\education\\Education.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\education\\Education.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\skills\\Skills.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\skills\\Skills.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\nav\\MainLogo.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\nav\\MainLogo.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\nav\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\nav\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\public\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\public\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\about\\About.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\about\\About.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\experience\\Experience.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\experience\\Experience.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\timeline\\Timeline.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\timeline\\Timeline.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\timeline\\TimelineItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\timeline\\TimelineItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\skills\\SkillCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\skills\\SkillCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio\\src\\components\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 162,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\app.css",
+              "RelativeDocumentMoniker": "portfolio\\src\\app.css",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\app.css",
+              "RelativeToolTip": "portfolio\\src\\app.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAFQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-02-16T07:31:12.328Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Education.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\education\\Education.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\education\\Education.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\education\\Education.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\education\\Education.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-13T16:52:09.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLogo.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\nav\\MainLogo.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\nav\\MainLogo.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\nav\\MainLogo.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\nav\\MainLogo.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-12-25T16:57:20.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\package.json",
+              "RelativeDocumentMoniker": "portfolio\\package.json",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\package.json",
+              "RelativeToolTip": "portfolio\\package.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-25T11:06:46.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SkillCard.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\skills\\SkillCard.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\skills\\SkillCard.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\skills\\SkillCard.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\skills\\SkillCard.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-12-25T08:01:02.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Skills.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\skills\\Skills.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\skills\\Skills.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\skills\\Skills.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\skills\\Skills.jsx",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-12-25T08:00:44.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\public\\index.html",
+              "RelativeDocumentMoniker": "portfolio\\public\\index.html",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\public\\index.html",
+              "RelativeToolTip": "portfolio\\public\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2023-12-24T13:36:08.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "manifest.json",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\public\\manifest.json",
+              "RelativeDocumentMoniker": "portfolio\\public\\manifest.json",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\public\\manifest.json",
+              "RelativeToolTip": "portfolio\\public\\manifest.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-25T15:29:25.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimelineItem.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\timeline\\TimelineItem.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\timeline\\TimelineItem.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\timeline\\TimelineItem.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\timeline\\TimelineItem.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-11-14T06:41:07.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Timeline.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\timeline\\Timeline.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\timeline\\Timeline.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\timeline\\Timeline.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\timeline\\Timeline.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-11-14T06:41:03.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\nav\\Header.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\nav\\Header.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\nav\\Header.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\nav\\Header.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-02-17T03:02:10.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\about\\About.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\about\\About.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\about\\About.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\about\\About.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAACnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-12-25T15:07:30.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Experience.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\experience\\Experience.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\experience\\Experience.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\experience\\Experience.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\experience\\Experience.jsx",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-11-14T06:37:51.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\App.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\components\\App.jsx",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\Portfolio\\justinfidelis.github.io\\portfolio\\src\\components\\App.jsx",
+              "RelativeToolTip": "portfolio\\src\\components\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2023-05-09T07:10:24.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

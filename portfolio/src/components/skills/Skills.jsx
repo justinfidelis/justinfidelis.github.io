@@ -7,7 +7,7 @@ const Skills = () => {
   const skillsData = [
     {
       category: "Programming Languages",
-      items: ["C/C++", "Java", "Python"],
+      items: ["C / C++", "Java", "Python"],
     },
     {
       category: "AI / Machine Learning",
@@ -23,7 +23,7 @@ const Skills = () => {
     },
     {
       category: "Web Development",
-      items: ["HTML / CSS / JavaScript", "ReactJS", "Bootstrap", "Firebase"],
+      items: ["HTML / CSS / JavaScript", "ReactJS", "Firebase"],
     },
   ];
 

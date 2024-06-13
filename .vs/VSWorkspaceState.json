@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
     "\\portfolio",
     "\\portfolio\\public",
     "\\portfolio\\src",
     "\\portfolio\\src\\components",
-    "\\portfolio\\src\\components\\experience",
+    "\\portfolio\\src\\components\\about",
+    "\\portfolio\\src\\components\\contact",
+    "\\portfolio\\src\\components\\education",
     "\\portfolio\\src\\components\\nav",
-    "\\portfolio\\src\\components\\timeline"
+    "\\portfolio\\src\\components\\skills"
   ],
+  "SelectedNode": "\\portfolio\\src\\components\\education\\Education.jsx",
   "PreviewInSolutionExplorer": false
 }
