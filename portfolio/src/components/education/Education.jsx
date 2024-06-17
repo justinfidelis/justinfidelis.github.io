@@ -10,11 +10,11 @@ const Education = () => {
         title: "National University of Singapore",
         date: "Aug 2020 - Jul 2024",
         text: [
-            "B.Eng. in Computer Engineering, Honours\n" +
-            "Awarded Lee Kuan Yew Gold Medal & IES Gold Medal (Top Graduating Student)\n" +
-          "NUS Merit Scholarship\n" +
-          "Placed on the Dean's List for 4 semesters\n" +
-          "Graduation CAP: 4.94/5.0",
+        "B.Eng. in Computer Engineering, Honours (Highest Distinction)\n" +
+        "Awarded Lee Kuan Yew Gold Medal & IES Gold Medal (Top Graduating Student)\n" +
+        "Placed on the Dean's List for 4 semesters\n" +
+        "NUS Merit Scholarship\n" +
+        "Graduation CAP: 4.94/5.0",
         ]
       },
       {
