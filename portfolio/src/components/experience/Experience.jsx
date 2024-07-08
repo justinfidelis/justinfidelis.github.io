@@ -6,19 +6,20 @@ import Timeline from '../timeline/Timeline';
 const Experience = () => {
     const experienceData = [
       {
-        title: "National University of Singapore",
-        subtitle: "Student Teaching Assistant",
-        date: "Aug 2023 - Nov 2023",
+        title: "DSO National Laboratories",
+        subtitle: "Software Engineer (Information Division)",
+        date: "Jul 2024 - Present",
         text: [
-          "Conducted weekly lab sessions for CS1010 - Programming Methodology, an introductory module to C",
-          "Prepared lesson materials and graded coding assignments",
         ],
       },
       {
         title: "National University of Singapore",
         subtitle: "Student Teaching Assistant",
-        date: "Jan 2023 - Apr 2023",
+        date: "Aug 2023 - Nov 2023\nJan 2023 - Apr 2023\nJan 2022 - Apr 2022",
         text: [
+          "Conducted weekly lab sessions for CS1010 - Programming Methodology, an introductory module to C",
+          "Conducted regular consultation sessions for supplementary guidance",
+          "Prepared lesson materials and graded coding assignments",
           "Facilitated weekly lab sessions for CG2111A - Engineering Principles and Practice II, " +
             "an intermediate module on register level programming for Arduino",
           "Guided 8 groups of students in their project to create a remote-controlled environment mapping robot",
@@ -33,16 +34,6 @@ const Experience = () => {
           "Integrated a Multi-Agent Reinforcement Learning algorithm into a Python simulation environment",
           "Performed controlled testing of the algorithms' learning efficiency, performance and reliability",
           "Created a simulation environment for AI agents using the OpenAI Gym API",
-        ],
-      },
-      {
-        title: "National University of Singapore",
-        subtitle: "Student Teaching Assistant",
-        date: "Jan 2022 - Apr 2022",
-        text: [
-          "Conducted weekly tutorials for CS1010 - Programming Methodology, an introductory module to C",
-          "Conducted regular consultation sessions for supplementary guidance",
-          "Prepared lesson materials and graded coding assignments",
         ],
       },
       {

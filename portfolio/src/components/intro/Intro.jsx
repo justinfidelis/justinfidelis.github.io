@@ -17,7 +17,7 @@ function Intro() {
             </Row>
             <Row>
                 <p className="mb-0" id="intro-description">
-                    I'm currently studying computer engineering at NUS.
+                    I'm working as a software engineer at DSO National Laboratories.
                 </p>
             </Row>
         </Container>

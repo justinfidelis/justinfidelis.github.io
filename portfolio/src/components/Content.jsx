@@ -13,8 +13,8 @@ function Content() {
         <Intro />
         <About />
         <Skills />
-        <Education />
         <Experience />
+        <Education />
         <Contact />
       </Container>
     );
