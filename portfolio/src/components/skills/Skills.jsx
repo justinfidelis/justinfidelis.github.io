@@ -14,16 +14,16 @@ const Skills = () => {
       items: ["PyTorch", "TensorFlow"],
     },
     {
-      category: "Hardware",
-      items: ["Verilog / HLS", "Arduino", "Raspberry Pi", "ARM"],
+      category: "Web Development",
+      items: ["HTML / CSS / JavaScript", "ReactJS", "VueJS"],
     },
     {
       category: "Database",
-      items: ["PostgreSQL", "MySQL", "Firestore"],
+      items: ["SQL", "MongoDB"],
     },
     {
-      category: "Web Development",
-      items: ["HTML / CSS / JavaScript", "ReactJS", "Firebase"],
+      category: "Hardware",
+      items: ["Verilog / HLS", "Arduino", "Raspberry Pi", "ARM"],
     },
   ];
 

@@ -9,13 +9,12 @@ const Experience = () => {
         title: "DSO National Laboratories",
         subtitle: "Software Engineer (Information Division)",
         date: "Jul 2024 - Present",
-        text: [
-        ],
+        text: [],
       },
       {
         title: "National University of Singapore",
         subtitle: "Student Teaching Assistant",
-        date: "Aug 2023 - Nov 2023\nJan 2023 - Apr 2023\nJan 2022 - Apr 2022",
+        date: "Jan 2024 - Apr 2024\nAug 2023 - Nov 2023\nJan 2023 - Apr 2023\nJan 2022 - Apr 2022",
         text: [
           "Conducted weekly lab sessions for CS1010 - Programming Methodology, an introductory module to C",
           "Conducted regular consultation sessions for supplementary guidance",
@@ -23,6 +22,8 @@ const Experience = () => {
           "Facilitated weekly lab sessions for CG2111A - Engineering Principles and Practice II, " +
             "an intermediate module on register level programming for Arduino",
           "Guided 8 groups of students in their project to create a remote-controlled environment mapping robot",
+          "Mentored students in CG4002 - Computer Engineering Capstone Project",
+          "Guided 7 groups of students on their project's AI component and facilitated project evaluations",
         ],
       },
       {
